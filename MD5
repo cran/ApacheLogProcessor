@@ -1,6 +1,6 @@
-0eebaa9de9e504bf282c264d58452e5f *DESCRIPTION
+6427d484ac0e31e9d3a939a64804fa72 *DESCRIPTION
 ecdfbc3616e37a6a305bc4bd3fc90d6c *NAMESPACE
-267b5be8435d5b8d8e8b6689825d7a32 *R/ApacheLogProcessor.R
+e6d3a350dc80c2056635c6889df0738e *R/ApacheLogProcessor.R
 7cca03bbfcd0df4227645645b83f0c6e *inst/examples/apache_example.txt
 dccec90da5835d7a9ae8dcee6db1734f *man/apache_example.Rd
-d2483502b256579bff9db0fb4625b346 *man/read.apache.log.combined.Rd
+25ea10dfc6db3d4d1ba8a1a4888e2903 *man/read.apache.log.combined.Rd
