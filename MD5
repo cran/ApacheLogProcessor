@@ -1,6 +1,10 @@
-48b0eb9d14360a3461fd4543d93b2dba *DESCRIPTION
-ecdfbc3616e37a6a305bc4bd3fc90d6c *NAMESPACE
-f23cc775b019f278245f8de962a69311 *R/ApacheLogProcessor.R
-7cca03bbfcd0df4227645645b83f0c6e *inst/examples/apache_example.txt
-dccec90da5835d7a9ae8dcee6db1734f *man/apache_example.Rd
-25ea10dfc6db3d4d1ba8a1a4888e2903 *man/read.apache.log.combined.Rd
+ef96af750091d8b79613046e59a2ec98 *DESCRIPTION
+3ff425193c10ca6a9375e287cb2c5c7e *LICENSE
+9f71c183b8e92145e8941d7c5d785115 *NAMESPACE
+91f5b7908dafec421fb980f226315cd8 *R/ApacheLogProcessor.R
+96ba8e65ca447099eff42cb97e989295 *README.md
+7cca03bbfcd0df4227645645b83f0c6e *inst/examples/access_log_combined.txt
+f894ede89b7cd78cd72ed8719f314066 *inst/examples/access_log_common.txt
+1bfd0fba679bb4cf9dd125a462dc594e *man/access_log_combined.Rd
+8150c3a34900be72c6b4404d6f14346b *man/access_log_common.Rd
+8baec38a8893dffd17a323873f5a4694 *man/read.apache.log.Rd
