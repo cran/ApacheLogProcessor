@@ -1,7 +1,7 @@
-d5f72eb749049993708b61bb53224618 *DESCRIPTION
+b8b33c27204be4e9698a2c67454e9853 *DESCRIPTION
 3ff425193c10ca6a9375e287cb2c5c7e *LICENSE
 b87396c617d7c10cf1a6310451a4a2aa *NAMESPACE
-3c68b524a78cd1f28baa074e4335ea52 *R/ApacheLogProcessor.R
+b6b87ed6ecfd71255f23eeecb748f623 *R/ApacheLogProcessor.R
 e2a14af840d88ffcc7e35c660aece65a *README.md
 5a2afdc89905aea22f313ecd676b9349 *inst/examples/access_log_combined.txt
 d9f6780bd43ddeefd02017f19a3a29d2 *inst/examples/access_log_common.txt

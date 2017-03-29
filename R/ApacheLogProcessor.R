@@ -205,7 +205,7 @@ read.multiple.apache.access.log <- function(path, prefix, verbose = TRUE, ...){
     #check if the file is gziped
     gziped = FALSE
     gzipedFile <- NULL
-    if(endsWith(inputFile, ".gz")){
+    if(grepl("\\.gz$", inputFile)){
       gziped = TRUE
       
       #store the name of gziped file
@@ -634,7 +634,7 @@ read.multiple.apache.error.log <- function(path, prefix, verbose = TRUE, ...){
     #check if the file is gziped
     gziped = FALSE
     gzipedFile <- NULL
-    if(endsWith(inputFile, ".gz")){
+    if(grepl("\\.gz$", inputFile)){
       gziped = TRUE
       
       #store the name of gziped file
@@ -721,8 +721,8 @@ parse.php.msgs <- function(dfErrorLog){
   for(i in 1:nrow(dfErrorLog)){
     #extract the message
     msg <- dfErrorLog$msg[i]
-    #check if it is a PHP message
-    if (startsWith(msg, "PHP")){
+    #check if it is a PHP message, same as startsWith
+    if (grepl("^PHP", msg)){
       #create a entry
       entry <- list()
       
